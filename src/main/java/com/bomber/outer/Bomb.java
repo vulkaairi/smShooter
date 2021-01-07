@@ -27,7 +27,7 @@ public class Bomb {
 		this.restTemplate = restTemplate;
 	}
 
-	@Async
+	
 	public void bomb(String number) {
 		readFile(number);
 	}
